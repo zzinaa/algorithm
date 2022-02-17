@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT NAME) FROM ANIMAL_INS
+
+-- distinct 는 해당 컬럼(name)의 null 과 중복을 제외해준다.
