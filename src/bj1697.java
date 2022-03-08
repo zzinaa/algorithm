@@ -20,15 +20,15 @@ public class bj1697 {
 
         if (N == K) {
             System.out.println(0);
-        } else BFS(N);
+        } else BFS();
 
     }
 
-    private static void BFS(int n) {
+    private static void BFS() {
         Queue<Integer> q = new LinkedList<>();
         int num;
 
-        q.offer(n);
+        q.offer(N);
 
         while (!q.isEmpty()) {
             num = q.poll();
